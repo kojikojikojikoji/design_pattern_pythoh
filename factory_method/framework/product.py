@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractclassmethod
 
 class Product(metaclass=ABCMeta):
-    @abstractclassmethod
+    @abstractmethod
     def use(self):
         pass

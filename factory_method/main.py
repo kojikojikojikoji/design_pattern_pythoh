@@ -3,7 +3,7 @@ from idcard.id_card_factory import IDCardFactory
 from framework.factory import Factory
 from framework.product import Product
 
-def main2():
+def main():
     # pass
     factory = IDCardFactory()
     card1 = factory.create("人1")
@@ -14,4 +14,4 @@ def main2():
     card3.use()
     
 if __name__ == '__main__':
-    main2()
+    main()
